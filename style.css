@@ -31,7 +31,7 @@ header{
     font-weight: bold;
 }
 
-p{
+span{
     align-self: center;
     font-weight: 550;
 }
@@ -46,15 +46,29 @@ p span{
     justify-content: space-between;
     margin: 15px 0px 15px 0px;
     padding: 5px;
+    align-self: center;
 }
 
 .pausa{
-    height: 30px;
+    height: 35px;
     align-self: center;
+    padding: 5px;
+}
+
+.pausa1{
+    height: 35px;
+    align-self: center;
+    border: 1px solid #18bd49;
+    border-radius: 50px;
+    padding: 5px;
+    background-color: #18bd49;
+    
+    
 }
 
 .capacd{
     height: 60px;
+    margin-left: -20px;
 }
 
 .capacd2{
@@ -63,31 +77,42 @@ p span{
     margin-top: -8px;
 }
 
+.space5{
+    margin-right: 6px;
+}
+
+.linha{
+    margin-right: 5px;
+}
+
 .space{
-    margin-left: 36px;
-    margin-right: 190px;
+    margin-right: 1px;
+}
+
+.linha1{
+    margin-right: 5px;
 }
 
 .space1{
-    margin-right: 40px;
+    margin-right: 130px; 
+}
+
+.linha2{
+    margin-right: 5px;
+}
+
+.space2{
+    margin-right: 15px;
+}
+
+.linha3{
+    margin-right: 6px;
 }
 
 .space3{
-    margin-left: -40px;
+    margin-right: 130px;
 }
 
-.space0{
-    margin-right: 25px;
-}
-
-.space4{
-    margin-left: 25px;
-    margin-right: 185px;
-}
-
-.space5{
-    margin-left: -40px;
-}
 
 #borda{
     border: 1px solid #fff;
@@ -98,12 +123,20 @@ p span{
     align-self: center;
 }
 
+.estilo{
+    font-weight: 100;
+}
+
 footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-left: 10px;
     margin-right: 5px;
+}
+
+.centro{
+    margin-right: 10px;
 }
 
 article{
