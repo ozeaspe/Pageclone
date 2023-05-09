@@ -40,6 +40,15 @@ p span{
     font-weight: 100;
 }
 
+h4 {
+    color: #cac4c4;
+    font-weight: 100;
+}
+
+#icon{
+    margin-left: -200px;
+}
+
 .topo {
     display: flex;
     flex-direction: row;
@@ -75,6 +84,7 @@ p span{
     height: 50px;
     align-self: center;
     margin-top: -8px;
+    border-radius: 10px;
 }
 
 .space5{
@@ -135,8 +145,22 @@ footer{
     margin-right: 5px;
 }
 
-.centro{
+.moove{
+    margin-left: -20px;
+}
+
+.moove1{
+    margin-left: -8px;
+}
+
+.blue{
     margin-right: 10px;
+    color: #18bd49;
+}
+
+.text{
+    color: #18bd49;
+    font-weight: 100;
 }
 
 article{
